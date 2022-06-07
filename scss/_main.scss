@@ -8,18 +8,21 @@
     background-color: $colorBody;
     font-family: 'Cormorant Garamond', serif;
 }
-a {
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
+.navbar{
+    a {
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+
 }
 
 a:hover, a:focus {
     background-size: 100% 2px;
-    
+
 }
 
 
@@ -80,7 +83,7 @@ a:hover, a:focus {
         height: 300px;
 
         &:hover{
-            border: 5px solid #f7f7f7;
+            border: 5px solid #262626;
         }
     }
 }
@@ -98,7 +101,11 @@ a:hover, a:focus {
 .raya{
     @extend %linea;
 }
+/*PORTFOLIOS*/
 
+.colorPortfolios{
+    background-color: #262626;
+}
 
 
 

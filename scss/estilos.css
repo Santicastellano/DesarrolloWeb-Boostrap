@@ -9,18 +9,20 @@
   background-color: #f7f5f1;
   font-family: 'Cormorant Garamond', serif;
 }
-a {
+
+.navbar a {
   text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
+  -webkit-transition: background-size .3s;
   transition: background-size .3s;
 }
 
 a:hover, a:focus {
   background-size: 100% 2px;
-  
 }
 
 .inicioHome .titulo {
@@ -83,7 +85,7 @@ a:hover, a:focus {
 }
 
 #galeria img:hover {
-  border: 5px solid #f7f7f7;
+  border: 5px solid #262626;
 }
 
 /*hasta aca funciono el scss*/
@@ -93,5 +95,10 @@ a:hover, a:focus {
   margin-bottom: 500px;
   border-bottom: 1px solid black;
   padding: 25px;
+}
+
+/*PORTFOLIOS*/
+.colorPortfolios {
+  background-color: #262626;
 }
 /*# sourceMappingURL=estilos.css.map */
