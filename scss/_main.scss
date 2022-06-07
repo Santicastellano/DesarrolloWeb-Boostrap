@@ -1,0 +1,95 @@
+/*aca escribo el codigo*/
+.anclarArriba{
+    position: fixed;
+    z-index: 1000;
+}
+
+.colorBody{
+    background-color: $colorBody;
+    font-family: 'Cormorant Garamond', serif;
+}
+.inicioHome{
+        .titulo{
+            font-size: 4.8rem;
+            @media all and (max-width:576px){
+                font-size: 2rem;
+            }
+    }
+    
+}
+.inicioHome {
+    .parrafoInicio{
+        font-size: 1.5rem;
+        @media all and (max-width:576px){
+            font-size: 1rem;
+        }
+    }
+    
+}
+.parrafoDos{
+    @media all and (max-width:576px){
+        font-size: 1rem;
+    }
+}
+.container{
+    h4{
+        margin-top: 17rem;
+        font-size: 2rem ;
+    }
+
+}
+
+/*servicios*/
+.subTitulo{
+    font-weight: 400 ;
+}
+.tamanoImagen{
+    width: 407px;
+    height: 601px;
+    @media all and (max-width:576px){
+        width: 207px;
+        height: 401px;
+    }
+}
+
+/*galeria*/
+#galeria {
+    .col-lg-4{
+        margin: 0 !important;
+        padding: 15px;
+    }
+}
+#galeria{
+    img{
+        width: 100%;
+        height: 300px;
+
+        &:hover{
+            border: 5px solid #f7f7f7;
+        }
+    }
+}
+
+/*hasta aca funciono el scss*/
+
+/*about us*/
+%linea{
+    margin-top: 15px;
+    margin-bottom: 500px;
+    border-bottom: 1px solid black;
+    padding: 25px;
+
+}
+.raya{
+    @extend %linea;
+}
+
+
+
+
+
+
+
+
+
+
