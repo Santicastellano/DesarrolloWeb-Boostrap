@@ -12,7 +12,7 @@
         <div class="container-fluid bg-dark anclarArriba">
             <nav class="navbar navbar-expand-lg navbar-dark py-3">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Community Blav</a>
+                    <a class="navbar-brand" href="index.html">Community Blav</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -66,7 +66,7 @@
                         <a class="btn btn-outline-secondary my-5 px-5" href="contacto.html">Comprar</a>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 px-5">
-                        <img src="./assets/Foto-Plan-Basico-02.webp" alt="plan basico" class="my-5 tamanoImagen">
+                        <img src="./assets/Foto-Plan-Basico-02.webp" alt="plan basico" class="my-5 tamanoImagenBasico">
                     </div>
             </article>
             <article class="row gx-5 my-5  ">
@@ -76,7 +76,7 @@
                         <a class="btn btn-outline-secondary my-5 px-5" href="contacto.html">Comprar</a>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 px-5">
-                        <img src="./assets/Foto-Plan-Medio-03_2.webp" alt="plan medio" class=" my-5 tamanoImagen" >
+                        <img src="./assets/Foto-Plan-Medio-03_2.webp" alt="plan medio" class=" my-5 tamanoImagenMedio" >
                     </div>
             </article>
             <article class="row gx-5 my-5  ">
@@ -86,7 +86,7 @@
                         <a class="btn btn-outline-secondary my-5 px-5" href="contacto.html">Comprar</a>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 px-5">
-                        <img src="./assets/Foto-Plan-Full-03.webp" alt="plan full" class=" my-5 tamanoImagen" >
+                        <img src="./assets/Foto-Plan-Full-03.webp" alt="plan full" class=" my-5 tamanoImagenFull" >
                     </div>
             </article>
 
@@ -111,11 +111,29 @@
                                 <label class="form-label" for="form5Example29">Email</label>
                             </div>
                         </div>
+                        <!--modal bootoon-->
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-outline-light mb-4">
-                            suscribirse
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                suscribirse
                             </button>
                         </div>
+                    <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-black" id="exampleModalLabel">UPPS! a ocurrido un error</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-black">
+                                        Estamos trabajando para solucionarlo!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">aceptar</button>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </form>
             </section>

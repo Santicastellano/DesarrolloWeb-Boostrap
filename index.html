@@ -109,7 +109,7 @@
         </div>
     </div>
     
-    <article class="container-xl py-5">
+    <article class="container-fluid py-5">
         <div class="row gx-5 mx-auto">
             <div class="col-12 col-sm-12 col-md-6 py-5">
                 <h3 class="py-4 fs-1">¡Comencemos esta historia!</h3>
@@ -121,13 +121,13 @@
                 </p>
             </div>
             <div class="col-12 col-sm-12 col-md-6 px-5">
-                <img src="./assets/Foto-Home-02-1.webp" alt="plan medio" class=" my-5 tamanoImagen" >
+                <img src="./assets/Foto-Home-02-1.webp" alt="plan medio" class=" my-5 imagenBrandingHome" >
             </div>
         </div>
     </article>
 
     <!--footer-->
-    <footer class="bg-dark text-center text-white" style="background-color:#262626;">
+    <footer class="bg-dark text-center text-white container-fluid" style="background-color:#262626;">
         <!-- Grid container -->
             <div class="container p-4 pb-0">
             <!-- Section: Form -->
@@ -145,10 +145,28 @@
                                     <label class="form-label" for="form5Example29">Email</label>
                                 </div>
                             </div>
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn-outline-light mb-4">
-                                    suscribirse
-                                </button>
+                            <!--modal bootoon-->
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                suscribirse
+                            </button>
+                        </div>
+                    <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-black" id="exampleModalLabel">UPPS! a ocurrido un error</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-black">
+                                        Estamos trabajando para solucionarlo!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">aceptar</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </form>

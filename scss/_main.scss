@@ -1,4 +1,4 @@
-/*aca escribo el codigo*/
+
 .anclarArriba{
     position: fixed;
     z-index: 1000;
@@ -56,17 +56,60 @@ a:hover, a:focus {
     }
 
 }
+.imagenBrandingHome{
+    width: 612px;
+    height: 801px;
+    @media all and (max-width:576px){
+        width: 298px;
+        height: 390px;
+    }
+    @media all and (max-width:768px){
+        width: 548px;
+        height: 718px;
+    }
+    @media all and (max-width:992px){
+        width: 312px;
+        height: 408px;
+    }
+    @media all and (max-width:1200px){
+        width: 314px;
+        height: 412px;
+    }
+    @media all and (max-width:1400px){
+        padding: 25px;
+        width: 374px;
+        height: 492px;
+    }
+}
 
 /*servicios*/
 .subTitulo{
     font-weight: 400 ;
+
 }
-.tamanoImagen{
-    width: 407px;
-    height: 601px;
+
+.tamanoImagenBasico{
+    width: 370px;
+    height: 543px;
     @media all and (max-width:576px){
-        width: 207px;
-        height: 401px;
+        width: 298px;
+        height: 437px;
+    }
+}
+.tamanoImagenMedio{
+    width: 370px;
+    height: 547px;
+    @media all and (max-width:576px){
+        width: 298px;
+        height: 440px;
+    }
+}
+.tamanoImagenFull{
+    width: 370px;
+    height: 543px;
+    @media all and (max-width:576px){
+        width: 298px;
+        height: 436px;
     }
 }
 

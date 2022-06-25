@@ -12,7 +12,7 @@
         <div class="container-fluid bg-dark anclarArriba">
             <nav class="navbar navbar-expand-lg navbar-dark py-3">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Community Blav</a>
+                    <a class="navbar-brand" href="index.html">Community Blav</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -55,31 +55,31 @@
     <div id="galeria" class="container">   
         <div class="row py-5">
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="Ambos Alabama" href="alabama.html"><img src="assets/alabama-fotos-13.png" alt="imagenDeGaleria" /></a>
+                <a title="Ambos Alabama" href="./paginas/alabama.html"><img src="assets/alabama-fotos-13.png" alt="imagenDeAlabama" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="gioco" href="gioco.html"><img src="./assets/gioco-2-07.webp" alt="imagenDeGaleria" /></a>
+                <a title="gioco" href="./paginas/gioco.html"><img src="./assets/gioco-2-07.webp" alt="imagenDeGioco" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="Flora-accesorios" href="flora.html"><img src="./assets/Flora-accesorios.webp" alt="imagenDeGaleria" /></a>
+                <a title="Flora-accesorios" href="./paginas/flora.html"><img src="./assets/Flora-accesorios.webp" alt="imagenDeFlora" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="petshop Happy puppy" href="happyPuppy.html"><img src="./assets/happy-pupy-portada-13.webp" alt="imagenDeGaleria" /></a>
+                <a title="petshop Happy puppy" href="./paginas/happyPuppy.html"><img src="./assets/happy-pupy-portada-13.webp" alt="imagenDeHappypuppy" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="crosta" href="crosta.html"><img src="./assets/Crosta-01.webp" alt="imagenDeGaleria" /></a>
+                <a title="crosta" href="./paginas/crosta.html"><img src="./assets/Crosta-01.webp" alt="imagenDeCrosta" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="avocado Club" href="avocado.html"><img src="./assets/Avocado-Club-02.png" alt="imagenDeGaleria" /></a>
+                <a title="avocado Club" href="./paginas/avocado.html"><img src="./assets/Avocado-Club-02.png" alt="imagenDeAvocado" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="eje Consultora" href="ejeConsultora.html"><img src="./assets/Eje-Consultora_Mesa-de-trabajo-1.webp" alt="imagenDeGaleria" /></a>
+                <a title="eje Consultora" href="./paginas/ejeConsultora.html"><img src="./assets/Eje-Consultora_Mesa-de-trabajo-1.webp" alt="imagenDeEjeConsultora" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="anyi hillairet" href="hillairet.html"><img src="./assets/Anyi-hillairet_Mesa-de-trabajo-1.webp" alt="imagenDeGaleria" /></a>
+                <a title="anyi hillairet" href="./paginas/hillairet.html"><img src="./assets/Anyi-hillairet_Mesa-de-trabajo-1.webp" alt="imagenDeHillairet" /></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <a title="mandragora Home" href="madragora.html"><img src="./assets/Madragora-Home.png" alt="imagenDeGaleria" /></a>
+                <a title="mandragora Home" href="./paginas/madragora.html"><img src="./assets/Madragora-Home.png" alt="imagenDeMadragora" /></a>
             </div>
         </div>
     </div>
@@ -103,11 +103,29 @@
                                 <label class="form-label" for="form5Example29">Email</label>
                             </div>
                         </div>
+                        <!--modal bootoon-->
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-outline-light mb-4">
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 suscribirse
                             </button>
                         </div>
+                    <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-black" id="exampleModalLabel">UPPS! a ocurrido un error</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-black">
+                                        Estamos trabajando para solucionarlo!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">aceptar</button>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </form>
             </section>
